@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miray Hirabayashi</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .tech-stack {
+            font-weight: bold;
+            color: #555;
+        }
+        .link {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src= "./images/profile.jpg" style="height: 400px;" alt="Profile Photo">
+            <h1>Miray Hirabayashi</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown;">
+                Software Engineering Major | Cybersecurity Minor
+            </p>
+            <p>
+                I am a sophomore at Iowa State University, pursuing a degree in Software Engineering with a minor in Cybersecurity.  
+                Passionate about developing innovative software solutions and enhancing digital security, I am eager to apply my skills to real-world challenges.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+            <img src= "./images/project1.png" alt="Project 1">
+            <h3>PDF Merger Website</h3>
+            <p class="tech-stack">Tech Stack: Python (Flask), HTML, CSS, JavaScript</p>
+        <p>A web-based application designed to streamline the process of merging multiple PDF files into one.</p>
+        <ul>
+            <li>Developed a <strong>Flask-based backend</strong> for efficient PDF merging, ensuring fast and reliable performance.</li>
+            <li>Created a <strong>responsive, user-friendly UI</strong> with <strong>HTML, CSS, and JavaScript</strong>, improving accessibility across devices.</li>
+            <li>Implemented <strong>drag-and-drop file upload</strong>, allowing users to effortlessly add PDFs for merging.</li>
+            <li>Optimized the merging algorithm to <strong>handle large files smoothly</strong>, preventing crashes or slowdowns.</li>
+        </ul>
+        <a href="https://pdfmerger-397v.onrender.com/" class="link">🔗 Live Demo</a>
+            </div>
+            <div class="project">
+                <img src= "./images/project2.png" style="height: 400px;" alt="Project 2">
+                <h3>EasySplit</h3>
+                <p class="tech-stack">Tech Stack: Swift, SwiftUI</p>
+        <p>An intuitive iOS application designed to simplify splitting expenses among friends, roommates, or groups.</p>
+        <ul>
+            <li>Developed using <strong>Swift and SwiftUI</strong>, ensuring a smooth and modern iOS experience.</li>
+            <li>Designed a <strong>clean and intuitive interface</strong> for easy expense input and bill splitting.</li>
+            <li>Implemented <strong>automatic calculations</strong>, allowing users to divide costs fairly and efficiently.</li>
+            <li>Optimized for <strong>usability and performance</strong>, making group payments hassle-free.</li>
+        </ul>
+        <a href="https://github.com/MirayHirabayashi/EasySplit" class="link">🔗 GitHub Link</a>
+                </div>
+            
+            </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at miray@iastate.edu</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Miray Hirabayashi</p>
+    </footer>
+</body>
+</html>
